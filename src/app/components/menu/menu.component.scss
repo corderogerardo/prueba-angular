@@ -1,0 +1,21 @@
+.menu-container{
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 98vw;
+  height: 8vh;
+  li{
+    width: 5%;
+    list-style: none;
+    a{
+      text-decoration: none;
+      color: darkgrey;
+      &.actived{
+        color: #000;
+      }
+    }
+  }
+}
