@@ -14,7 +14,7 @@ interface Batman extends Persona {
   artesMarciales: string[];
 }
 
-let batman: Batman;
+let imbatman: Batman;
 
 let createBatman = (nombre: string, edad: number, artesMarciales: string[]): Batman => {
   return {
@@ -24,8 +24,8 @@ let createBatman = (nombre: string, edad: number, artesMarciales: string[]): Bat
   };
 };
 
-batman = createBatman('Bruno Díaz', undefined, ['Karate', 'Aikido', 'Wing Chun', 'Jiu-Jitsu']);
+imbatman = createBatman('Bruno Díaz', undefined, ['Karate', 'Aikido', 'Wing Chun', 'Jiu-Jitsu']);
 
 // Convertir esta función a una función de flecha
-let resultadoDoble = ( a, b ) => (a + b) * 2;
+let resultadoDoble = (a, b) => (a + b) * 2;
 resultadoDoble(2, 2);
